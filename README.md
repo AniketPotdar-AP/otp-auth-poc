@@ -14,12 +14,12 @@ This project demonstrates a secure OTP (One-Time Password) based authentication 
 - Database Integration: MongoDB storage for user data and OTP records
 
 ## Table of Contents
-- [Features](##Features)
-- [Installation](##Installation)
+- [Features](#Features)
+- [Installation](#Installation)
 - [Usage](#Usage)
-- [API Endpoints](##api-endpoints)
-- [Project Structure](##project-structure)
-- [Dependencies](##Dependencies)
+- [API Endpoints](##API)
+- [Project Structure](#Structure)
+- [Dependencies](#Dependencies)
 
 ## Features
 - ✅ OTP Generation & Verification (Mocked)
@@ -52,7 +52,7 @@ This project demonstrates a secure OTP (One-Time Password) based authentication 
    npm run start
    ```
 
-## API Endpoint
+## API
 
 ### **POST /api/auth/send-otp**
 
@@ -87,7 +87,7 @@ This project demonstrates a secure OTP (One-Time Password) based authentication 
      "message": "Authentication successful"
   }
 
-## Project Structure
+## Structure
 
 ```
 ├── config/
