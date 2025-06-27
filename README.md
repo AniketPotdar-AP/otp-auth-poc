@@ -13,12 +13,12 @@ This project integrates a Secure Backend Implementation with JWT, Rate Limiting,
 ![JWT](https://img.shields.io/badge/JWT-Auth-orange)
 
 ## Table of Contents
-- [Features](##Features)
-- [Installation](##Installation)
+- [Features](#Features)
+- [Installation](#Installation)
 - [Usage](#Usage)
-- [API Endpoints](##api-endpoints)
-- [Project Structure](##project-structure)
-- [Dependencies](##Dependencies)
+- [API](#API)
+- [Project Structure](#Project Structure)
+- [Dependencies](#Dependencies)
 
 ## Features
 - ✅ OTP Generation & Verification (Mocked)
@@ -51,7 +51,7 @@ This project integrates a Secure Backend Implementation with JWT, Rate Limiting,
    npm run start
    ```
 
-## API Endpoint
+## API
 
 ### **POST /api/auth/send-otp**
 
