@@ -36,7 +36,7 @@ This project demonstrates a secure OTP (One-Time Password) based authentication 
 
  - Clone the repository:
    ```sh
-   git clone https://github.com/AniketPotdar-AP/Gemini_chatbot_backend.git
+   git clone https://github.com/AniketPotdar-AP/otp-auth-poc.git
    ```
 - Install dependencies:
 
