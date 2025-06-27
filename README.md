@@ -17,7 +17,7 @@ This project integrates a Secure Backend Implementation with JWT, Rate Limiting,
 - [Installation](#Installation)
 - [Usage](#Usage)
 - [API](#API)
-- [Project Structure](#Project Structure)
+- [Project Structure](#Structure)
 - [Dependencies](#Dependencies)
 
 ## Features
@@ -86,7 +86,7 @@ This project integrates a Secure Backend Implementation with JWT, Rate Limiting,
      "message": "Authentication successful"
   }
 
-## Project Structure
+## Structure
 
 ```
 ├── config/
