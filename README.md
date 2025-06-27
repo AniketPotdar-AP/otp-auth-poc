@@ -2,23 +2,24 @@
 
 ## Overview
 
-This project integrates a Secure Backend Implementation with JWT, Rate Limiting, and Express Validations
+This project demonstrates a secure OTP (One-Time Password) based authentication system built with Node.js and Express. It serves as a production-ready proof-of-concept for implementing modern authentication best practices with:
 
-![Node.js](https://img.shields.io/badge/Node.js-18.x-green)
-
-![Express](https://img.shields.io/badge/Express-5.x-blue)
-
-![MongoDB](https://img.shields.io/badge/MongoDB-6.x-green)
-
-![JWT](https://img.shields.io/badge/JWT-Auth-orange)
+#### Key Functionalities
+- OTP Generation & Verification: Secure one-time password flow via email/SMS (mock implementation)
+- Token-Based Authentication: JWT-based access/refresh token system
+- Enhanced Security: Tokens stored in HTTP-only
+- Automatic token rotation via refresh tokens
+- Rate limiting to prevent brute force attacks
+- Robust Validation: Comprehensive request validation using express-validator
+- Database Integration: MongoDB storage for user data and OTP records
 
 ## Table of Contents
-- [Features](#Features)
-- [Installation](#Installation)
+- [Features](##Features)
+- [Installation](##Installation)
 - [Usage](#Usage)
-- [API](#API)
-- [Project Structure](#Structure)
-- [Dependencies](#Dependencies)
+- [API Endpoints](##api-endpoints)
+- [Project Structure](##project-structure)
+- [Dependencies](##Dependencies)
 
 ## Features
 - ✅ OTP Generation & Verification (Mocked)
@@ -51,7 +52,7 @@ This project integrates a Secure Backend Implementation with JWT, Rate Limiting,
    npm run start
    ```
 
-## API
+## API Endpoint
 
 ### **POST /api/auth/send-otp**
 
@@ -86,7 +87,7 @@ This project integrates a Secure Backend Implementation with JWT, Rate Limiting,
      "message": "Authentication successful"
   }
 
-## Structure
+## Project Structure
 
 ```
 ├── config/
