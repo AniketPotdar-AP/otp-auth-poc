@@ -17,7 +17,7 @@ This project demonstrates a secure OTP (One-Time Password) based authentication 
 - [Features](#Features)
 - [Installation](#Installation)
 - [Usage](#Usage)
-- [API Endpoints](##API)
+- [API Endpoints](#API)
 - [Project Structure](#Structure)
 - [Dependencies](#Dependencies)
 
